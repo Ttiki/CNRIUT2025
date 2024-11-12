@@ -110,11 +110,31 @@
 }
 
 
+% \def\@author{
+%   \Large \@lesauteurs \\
+%   \small{\texttt{\@lescourriels}}\vspace*{4ex} \\
+%   \\
+%   \@lesaffiliations
+% }
+
 \def\@author{
-  \Large \@lesauteurs \\
-  \small{\texttt{\@lescourriels}}\vspace*{4ex} \\
+  \Large
+  \begin{tabular}{c}
+    Clément Combier$^{1,*}$ \\
+    Adel Noureddine$^2$ \\
+    Jose Enrique Armendariz-Inigo$^3$ \\
+    Philippe Arnould $^2$
+  \end{tabular}
+  \vspace*{4ex}
+  \begin{tabular}{c}
+    \small{\texttt{clement.combier@univ-pau.fr}} \\
+    \small{\texttt{adel.noureddine@univ-pau.fr}} \\
+    \small{\texttt{enrique.armendariz@unavarra.es}} \\
+    \small{\texttt{philippe.arnould@univ-pau.fr}}
+  \end{tabular} \\
   \\
-  \@lesaffiliations}
+  \@lesaffiliations
+}
 
 \newcommand\creationEnTete{\maketitle\thispagestyle{empty}
        \vspace*{2ex}
