@@ -123,7 +123,7 @@
     Clément Combier$^{1,*}$ \\
     Adel Noureddine$^2$ \\
     Jose Enrique Armendariz-Inigo$^3$ \\
-    Philippe Arnould $^2$
+    Philippe Arnould $^4$
   \end{tabular}
   \vspace*{4ex}
   \begin{tabular}{c}
