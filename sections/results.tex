@@ -1,7 +1,22 @@
-Pour cette première année, nous avons établi une méthodologie pour récupérer les indicateurs et besoins de chaque tâche dans l'alliance UNITA. De ces interviews utilisant cette méthodologie orientée impact, nous avons pu récupérer une liste conséquente d'informations. Informations que nous avons validées avec chaque tâche.
-Un nettoyage des données a été nécessaire pour éliminer les erreurs et les incohérences. Les données nettoyées ont été intégrées dans le data warehouse (DWH) de UNITA en tant que méta-données. Le DWH stocke et gère les données de l'alliance UNITA, permettant de suivre les progrès et les résultats, identifier les tendances et les opportunités, et prendre des décisions éclairées.
-Nous avons ainsi obtenu environ 150 indicateurs d'outputs et 75 indicateurs d'outcomes, qui nous permettent de mesurer les résultats et les impacts de l'alliance UNITA. Le tableau \ref{tab:indic_ex} montre une sélection parmi ces indicateurs.
-\vspace{-12px}
-\begin{table}[h] \caption{Exemples d'indicateurs (sélection)} \begin{center} \begin{tabular}{|l|l|} \hline \textbf{Indicateurs} & \textbf{Unités} \\ \hline Pourcentage de projets UNITA évalués & \% \\ \hline Nombre d'événements de matchmaking & Nombre \\ \hline Nombre de publications scientifiques & Nombre \\ \hline \end{tabular} \label{tab:indic_ex} \end{center} \end{table}
+Lors de cette première année, nous avons mis en œuvre une méthodologie structurée pour collecter les indicateurs et les besoins spécifiques des différentes tâches de l’alliance UNITA. À partir d'entretiens collaboratifs, nous avons récupéré une liste d’indicateurs clés, validés en partenariat avec chaque équipe.
 
-\vspace{-26px}
+Ce processus est en cours de finalisation grâce à une deuxième série d’interviews dédiée à la validation des données. Parmi les 150 indicateurs d’outputs et 75 indicateurs d’outcomes identifiés, chacun doit être validé par les parties prenantes avant son intégration complète dans le data warehouse (DWH).
+
+Une fois les données nettoyées pour éliminer incohérences et doublons, elles seront intégrées dans le DWH centralisé de l’alliance UNITA. Ce système facilite le suivi des progrès, l’identification des tendances, et la prise de décisions stratégiques. Lorsqu’un indicateur est validé pour une tâche, le DWH est configuré pour permettre la collecte des données auprès des institutions membres. Cela amorce les travaux d’analyse, notamment la création de rapports et la prédiction de l’impact.
+
+La saisie et l’intégration des données se font de manière semi-automatique via des formulaires standardisés. Les institutions partenaires remplissent ces formulaires pour transmettre les données de leurs universités, qui sont ensuite enregistrées directement dans le DWH. Ces informations sont transformées pour alimenter UNITApedia, une solution MediaWiki sémantique connectée au DWH. Cet outil fournit des rapports interactifs et un accès transparent aux données pour tous les acteurs impliqués.
+
+La Table~\ref{tab:indic_ex} illustre une sélection d’indicateurs pertinents utilisés pour mesurer les résultats (outputs) et les effets (outcomes) des activités de l’alliance UNITA.
+
+\begin{table}[h]
+    \caption{Exemples d’indicateurs outputs (sélection)}
+    \centering
+    \begin{tabular}{|l|l|}
+        \hline
+        \textbf{Indicateurs} & \textbf{Unités} \\ \hline
+        Pourcentage de projets UNITA évalués & \% \\ \hline
+        Nombre d’événements de matchmaking & Nombre \\ \hline
+        Nombre de publications scientifiques & Nombre \\ \hline
+    \end{tabular}
+    \label{tab:indic_ex}
+\end{table}
